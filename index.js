@@ -4,7 +4,7 @@ const app = express();
 var server = http.createServer(app);
 
 app.get('/', function(req, res){
-    res.send('I Like Azure!');
+    res.send('I Like azure!');
 });
 
 app.get('/start', function(req, res){
