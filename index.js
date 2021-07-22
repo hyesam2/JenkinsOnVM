@@ -4,7 +4,7 @@ const app = express();
 var server = http.createServer(app);
 
 app.get('/', function(req, res){
-    res.send('pm2 start why?!');
+    res.send('pm2  why?!');
 });
 
 app.get('/start', function(req, res){
